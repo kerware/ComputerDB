@@ -1,0 +1,29 @@
+{
+  "computerDbApp": {
+    "computer": {
+      "home": {
+        "title": "Computers",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Computer",
+        "createOrEditLabel": "Créer ou éditer un Computer",
+        "notFound": "Aucun Computer trouvé"
+      },
+      "created": "Un nouveau Computer a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Computer avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Computer avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Computer {{ id }} ?"
+      },
+      "detail": {
+        "title": "Computer"
+      },
+      "id": "ID",
+      "name": "Name",
+      "introduced": "Introduced",
+      "removed": "Removed",
+      "hardware": "Hardware",
+      "software": "Software",
+      "company": "Company"
+    }
+  }
+}

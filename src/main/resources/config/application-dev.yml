@@ -18,7 +18,7 @@ logging:
     ROOT: DEBUG
     tech.jhipster: DEBUG
     org.hibernate.SQL: DEBUG
-    org.dev4tests.computerdb: DEBUG
+    com.myapp: DEBUG
 
 spring:
   devtools:
@@ -32,7 +32,7 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:h2:file:./target/h2db/db/ComputerDB;DB_CLOSE_DELAY=-1;MODE=LEGACY
+    url: jdbc:h2:file:./target/h2db/db/ComputerDB;DB_CLOSE_DELAY=-1;MODE=MYSQL
     username: ComputerDB
     password:
     hikari:

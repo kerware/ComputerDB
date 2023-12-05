@@ -1,0 +1,31 @@
+
+application {
+  config {
+    baseName ComputerDB
+    applicationType monolith
+    packageName com.myapp
+    authenticationType jwt
+    prodDatabaseType mysql
+    clientFramework react
+  }
+  entities *
+}
+
+entity Computer {
+    name String required
+    introduced LocalDate
+    removed LocalDate
+    hardware Integer min(0) max(40)
+    software Integer min(0) max(60)
+    
+}
+
+entity Company {
+	name String required
+}
+
+relationship ManyToOne {
+  Computer{Company(name)} to Company
+}
+
+

@@ -1,0 +1,15 @@
+{
+  "applications": ["ComputerDB"],
+  "changelogDate": "20231205085843",
+  "entityTableName": "company",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "Company",
+  "relationships": [],
+  "searchEngine": "no"
+}
