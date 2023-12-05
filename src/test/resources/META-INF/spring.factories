@@ -1,0 +1,2 @@
+org.springframework.test.context.ContextCustomizerFactory = org.dev4test.\
+    computerdb.config.SqlTestContainersSpringContextCustomizerFactory
