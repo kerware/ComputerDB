@@ -1,5 +1,6 @@
 {
   "generator-jhipster": {
+    "applicationIndex": 0,
     "applicationType": "monolith",
     "authenticationType": "jwt",
     "baseName": "ComputerDB",
@@ -15,17 +16,18 @@
     "enableHibernateCache": true,
     "enableSwaggerCodegen": "true",
     "enableTranslation": true,
-    "entities": [],
+    "entities": ["Computer", "Company"],
     "gitCompany": "",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "8.0.0",
     "jwtSecretKey": "MWEzNDMxMjc0ZTA0OGU3ODhlMDAxMzYxYzE5NTM1OWY3YzkwMmVlZmU2MTM3ZDIyNTU2NGE5MGMxZDc4NTRiODU3Yjg2N2JmOTM1NGY0MDRmYzJkNzhjMDhkMDQ0NjQ1ZjE2MTdiODYxYmQ0MDNkMWQ2NjIwNTkxZjdjZDllMjQ=",
     "languages": ["en", "fr"],
+    "lastLiquibaseTimestamp": 1701766723000,
     "messageBroker": false,
     "nativeLanguage": "en",
-    "packageFolder": "org/dev4tests/computerdb",
-    "packageName": "org.dev4tests.computerdb",
-    "prodDatabaseType": "mariadb",
+    "packageFolder": "com/myapp",
+    "packageName": "com.myapp",
+    "prodDatabaseType": "mysql",
     "searchEngine": false,
     "serverPort": 8080,
     "serviceDiscoveryType": false,
@@ -34,7 +36,33 @@
     "websocket": "spring-websocket",
     "withAdminUi": true
   },
-  "git-company": "kerware",
-  "git-provider": "GitHub",
-  "repository-name": "ComputerDB"
+  "git-company": {
+    "0": "k",
+    "1": "e",
+    "2": "r",
+    "3": "w",
+    "4": "a",
+    "5": "r",
+    "6": "e"
+  },
+  "git-provider": {
+    "0": "G",
+    "1": "i",
+    "2": "t",
+    "3": "H",
+    "4": "u",
+    "5": "b"
+  },
+  "repository-name": {
+    "0": "C",
+    "1": "o",
+    "2": "m",
+    "3": "p",
+    "4": "u",
+    "5": "t",
+    "6": "e",
+    "7": "r",
+    "8": "D",
+    "9": "B"
+  }
 }

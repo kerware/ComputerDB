@@ -1,0 +1,29 @@
+{
+  "computerDbApp": {
+    "computer": {
+      "home": {
+        "title": "Computers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Computer",
+        "createOrEditLabel": "Create or edit a Computer",
+        "notFound": "No Computers found"
+      },
+      "created": "A new Computer is created with identifier {{ param }}",
+      "updated": "A Computer is updated with identifier {{ param }}",
+      "deleted": "A Computer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Computer {{ id }}?"
+      },
+      "detail": {
+        "title": "Computer"
+      },
+      "id": "ID",
+      "name": "Name",
+      "introduced": "Introduced",
+      "removed": "Removed",
+      "hardware": "Hardware",
+      "software": "Software",
+      "company": "Company"
+    }
+  }
+}

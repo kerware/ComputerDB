@@ -1,0 +1,45 @@
+{
+  "applications": ["ComputerDB"],
+  "changelogDate": "20231205085842",
+  "entityTableName": "computer",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "introduced",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "removed",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "hardware",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["min", "max"],
+      "fieldValidateRulesMax": "40",
+      "fieldValidateRulesMin": "0"
+    },
+    {
+      "fieldName": "software",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["min", "max"],
+      "fieldValidateRulesMax": "60",
+      "fieldValidateRulesMin": "0"
+    }
+  ],
+  "name": "Computer",
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "company",
+      "relationshipName": "company",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}
