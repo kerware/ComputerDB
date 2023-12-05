@@ -1,6 +1,7 @@
 package org.dev4test.computerdb.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.when;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

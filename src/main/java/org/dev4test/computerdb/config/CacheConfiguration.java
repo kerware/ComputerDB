@@ -48,6 +48,9 @@ public class CacheConfiguration {
             createCache(cm, org.dev4test.computerdb.domain.User.class.getName());
             createCache(cm, org.dev4test.computerdb.domain.Authority.class.getName());
             createCache(cm, org.dev4test.computerdb.domain.User.class.getName() + ".authorities");
+            createCache(cm, org.dev4test.computerdb.domain.Computer.class.getName());
+            createCache(cm, org.dev4test.computerdb.domain.Company.class.getName());
+            createCache(cm, org.dev4test.computerdb.domain.Company.class.getName() + ".computers");
             // jhipster-needle-ehcache-add-entry
         };
     }
