@@ -1,11 +1,13 @@
 {
   "home": {
-    "title": "Bienvenue, Java Hipster !",
-    "subtitle": "Ceci est votre page d'accueil",
+    "title": "Bienvenu, Testeur !",
+    "subtitle": "Vous pouvez tester cette application à tous les niveaux (BD, Unité de code, API REST, IHM)",
     "logged": {
       "message": "Vous êtes connecté en tant que \"{{username}}\"."
     },
     "question": "Si vous avez des questions à propos de JHipster :",
+    "gatling": "Librement inspiré par la célèbre application de démo de gatling",
+    "kerware": "Généré par le fantastique outil JHipster et créé par Olivier CHARLES ",
     "link": {
       "homepage": "Page d'accueil de JHipster",
       "stackoverflow": "JHipster sur Stack Overflow",

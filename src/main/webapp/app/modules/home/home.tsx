@@ -54,10 +54,11 @@ export const Home = () => {
           </div>
         )}
         <p>
-          <Translate contentKey="home.question">If you have any question on JHipster:</Translate>
+          <Translate contentKey="home.gatling">Inspired by the famous gatling demo application</Translate>{' '}
+          <a href="https://computer-database.gatling.io/computers">Computers Database</a>
         </p>
 
-        <ul>
+        {/*<ul>
           <li>
             <a href="https://www.jhipster.tech/" target="_blank" rel="noopener noreferrer">
               <Translate contentKey="home.link.homepage">JHipster homepage</Translate>
@@ -83,14 +84,11 @@ export const Home = () => {
               <Translate contentKey="home.link.follow">follow @jhipster on Twitter</Translate>
             </a>
           </li>
-        </ul>
+        </ul> */}
 
         <p>
-          <Translate contentKey="home.like">If you like JHipster, do not forget to give us a star on</Translate>{' '}
-          <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">
-            GitHub
-          </a>
-          !
+          <Translate contentKey="home.kerware">Created by Olivier CHARLES from </Translate>
+          <a href="http://www.kerware.com">Kerware</a>
         </p>
       </Col>
     </Row>

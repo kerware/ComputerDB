@@ -5,7 +5,7 @@
 
     <groupId>org.dev4test.computerdb</groupId>
     <artifactId>computer-db</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.3-DEMO</version>
     <packaging>jar</packaging>
     <name>Computer DB</name>
     <description>Description for Computer DB</description>
